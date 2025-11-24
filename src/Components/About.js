@@ -1,5 +1,5 @@
 import React from "react";
-import Doctor from "../Assets/doctor-group.png";
+import Doctor from "../Assets/CEO.png";
 import SolutionStep from "./SolutionStep";
 import "../Styles/About.css";
 
@@ -15,27 +15,24 @@ function About() {
           <span>About Us</span>
         </h3>
         <p className="about-description">
-          Welcome to Health Plus, your trusted partner for accessible and
-          personalized healthcare. Our expert doctors offer online consultations
-          and specialized services, prioritizing your well-being. Join us on
-          this journey towards a healthier you.
+          Welcome to <b>AGAPE Health Care</b>, a trusted destination committed to providing safe, reliable, and accessible healthcare information to our community. Founded by <b>Vinod Maragani</b>, our mission is to guide individuals and families with accurate details about medicines, health products, and wellness essentials. We believe that informed decisions lead to better health outcomes, and we strive to offer clarity, support, and trust at every step.
         </p>
 
         <h4 className="about-text-title">Your Solutions</h4>
 
         <SolutionStep
-          title="Choose a Specialist"
-          description="Find your perfect specialist and book with ease at Health Plus. Expert doctors prioritize your health, offering tailored care."
+          title="Trusted Guidance"
+          description="Get clear, reliable information about medicines, health essentials, and pharmacy services. We ensure every detail is accurate, easy to understand, and tailored to your needs."
         />
 
         <SolutionStep
-          title="Make a Schedule"
-          description="Choose the date and time that suits you best, and let our dedicated team of medical professionals ensure your well-being with personalized care."
+          title="Health Support"
+          description="We help you understand your health better with simple explanations, product details, and guidance, empowering you to make informed healthcare choices."
         />
 
         <SolutionStep
-          title="Get Your Solutions"
-          description="Our experienced doctors and specialists are here to provide expert advice and personalized treatment plans, helping you achieve your best possible health."
+          title="Personalized Care"
+          description="Led by Vinod Maragani, our pharmacy is dedicated to offering personalized attention, ensuring every visitor receives the support and knowledge they need for better well-being."
         />
       </div>
     </div>

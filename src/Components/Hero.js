@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Doctor from "../Assets/doctor-picture.png";
+import Doctor from "../Assets/heroimage.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate  } from "react-router-dom";
+import { faCalendarCheck, faAngleUp, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 import "../Styles/Hero.css";
 
 function Hero() {
@@ -33,39 +33,37 @@ function Hero() {
   }, []);
 
   return (
-    <div className="section-container">
+    <div className="section-container" id="home">
       <div className="hero-section">
         <div className="text-section">
           <p className="text-headline">❤️ Health comes first</p>
           <h2 className="text-title">
-            Find your Doctor and make an Appointments
-          </h2>
+            Quality Medicines, Caring Service You Can Rely On          </h2>
           <p className="text-descritpion">
-            Talk to online doctors and get medical advice, online prescriptions,
-            refills and medical notes within minutes. On-demand healthcare
-            services at your fingertips.
+            We provide trusted, high-quality medicines backed by friendly and reliable customer care.
           </p>
-          <button
+          <a href="#contact">
+            <button
             className="text-appointment-btn"
             type="button"
-            onClick={handleBookAppointmentClick}
           >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+            <FontAwesomeIcon icon={faPhone} /> Contact Us
           </button>
+          </a>
           <div className="text-stats">
             <div className="text-stats-container">
-              <p>145k+</p>
-              <p>Receive Patients</p>
+              <p>120k+</p>
+              <p>Prescriptions Filled</p>
             </div>
 
             <div className="text-stats-container">
-              <p>50+</p>
-              <p>Expert Doctors</p>
+              <p>24/7</p>
+              <p>Pharmacist Support</p>
             </div>
 
             <div className="text-stats-container">
-              <p>10+</p>
-              <p>Years of Experience</p>
+              <p>100%</p>
+              <p>Genuine Medicines</p>
             </div>
           </div>
         </div>

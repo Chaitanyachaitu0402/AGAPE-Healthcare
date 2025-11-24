@@ -1,9 +1,9 @@
 import React from "react";
-import Doctor from "../Assets/doctor-book-appointment.png";
+import Doctor from "../Assets/pills.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleCheck,
-  faCalendarCheck,
+  faCalendarCheck, faPhone
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate  } from "react-router-dom";
 import "../Styles/BookAppointment.css";
@@ -23,26 +23,23 @@ function BookAppointment() {
 
       <div className="ba-text-content">
         <h3 className="ba-title">
-          <span>Why Choose Health</span>
+          <span>Why Choose Our Pharmacy</span>
         </h3>
         <p className="ba-description">
-          Discover the reasons to choose Health Plus for your healthcare needs.
-          Experience expert care, convenience, and personalized solutions,
-          making your well-being our top priority. Join us on a journey to
-          better health and a happier life.
+          Discover why our pharmacy stands apart as a trusted destination for your healthcare and wellness needs. We are committed to providing reliable information, quality products, and customer-focused service — making your well-being our highest priority. With a foundation built by Vinod Maragani, we ensure trust, transparency, and exceptional care at every step.
         </p>
 
         <p className="ba-checks ba-check-first">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Best Professional Doctors
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#00B899" }} /> Genuine & Quality Products
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Emergency Care
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#00B899" }} /> Trusted Health Guidance
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> 24/7 Support Live Chat
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#00B899" }} /> Customer-Focused Service
         </p>
         <p className="ba-checks ba-check-last">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Enrollment Easy and Quick
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#00B899" }} /> Safe & Reliable Pharmacy Support
         </p>
 
         <button
@@ -50,7 +47,7 @@ function BookAppointment() {
           type="button"
           onClick={handleBookAppointmentClick}
         >
-          <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+          <FontAwesomeIcon icon={faPhone} /> Contact Us
         </button>
       </div>
     </div>

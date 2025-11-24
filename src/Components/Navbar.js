@@ -4,10 +4,12 @@ import {
   faCommentDots,
   faBars,
   faXmark,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
+import logo from "../Assets/mainlogowhite.jpeg";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -30,9 +32,7 @@ function Navbar() {
   return (
     <div className="navbar-section">
       <h1 className="navbar-title">
-        <Link to="/">
-          Health <span className="navbar-sign">+</span>
-        </Link>
+        <img src={logo} alt="" />
       </h1>
 
       {/* Desktop */}
@@ -57,21 +57,22 @@ function Navbar() {
             Reviews
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="#doctors" className="navbar-links">
             Doctors
           </a>
-        </li>
+        </li> */}
       </ul>
+      <a href="#contact">
+        <button
+          className="navbar-btn"
+          type="button"
+          disabled={isButtonDisabled}
+        >
+          <FontAwesomeIcon icon={faPhone} /> Contact Us
+        </button>
+      </a>
 
-      <button
-        className="navbar-btn"
-        type="button"
-        disabled={isButtonDisabled}
-        onClick={handleChatBtnClick}
-      >
-        <FontAwesomeIcon icon={faCommentDots} /> Live Chat
-      </button>
 
       {/* Mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
@@ -100,11 +101,11 @@ function Navbar() {
               Reviews
             </a>
           </li>
-          <li>
+          {/* <li>
             <a onClick={openNav} href="#doctors">
               Doctors
             </a>
-          </li>
+          </li> */}
           <li>
             <a onClick={openNav} href="#contact">
               Contact

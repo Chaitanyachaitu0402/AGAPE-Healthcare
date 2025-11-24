@@ -2,6 +2,8 @@ import React from "react";
 import "../Styles/Footer.css";
 import SubscribeNewsletter from "./SubscribeNewsletter";
 import { Link } from "react-router-dom";
+import logo from "../Assets/logowhite.png";
+
 
 function Footer() {
   return (
@@ -10,40 +12,53 @@ function Footer() {
         <div className="ft-info">
           <div className="ft-info-p1">
             <p className="ft-title">
-              Health <span className="ft-sign">+</span>
+        <img src={logo} alt="" />
             </p>
             <p className="ft-description">
-              Talk to online doctors and get medical advice, online
-              prescriptions, refills and medical notes within minutes. On-demand
-              healthcare services at your fingertips.
+              Our goal is to help every visitor make informed decisions about medicines, health products, and overall well-being.
             </p>
           </div>
 
-          <SubscribeNewsletter />
+          {/* <SubscribeNewsletter /> */}
         </div>
 
         <div className="ft-list">
           <p className="ft-list-title">Services</p>
           <ul className="ft-list-items">
             <li>
-              <a href="#services">Emergency Care</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#services">Heart Disease</a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a href="#services">Dental Care</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#services">Prescription</a>
+              <a href="#reviews">Reviews </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#services">Insights for doctors</a>
-            </li>
+            </li> */}
           </ul>
         </div>
 
-        <div className="ft-list">
+        <div className="ft-list" id="contact">
+          <p className="ft-list-title">Talk To Us</p>
+          <ul className="ft-list-items">
+            <li>
+              <a href="mailto:support@healthplus.com">agapehealthcaremedicals@gmail.com</a>
+            </li>
+            <li>
+              <a href="tel:+91 98480 68679">+91 98480 68679</a>
+            </li>
+                        <li>
+              <a href="tel:+91 98480 68679"> WhatsApp : +91 79975 54433</a>
+            </li>
+
+          </ul>
+        </div>
+        {/* <div className="ft-list">
           <p className="ft-list-title">Legal</p>
           <ul className="ft-list-items">
             <li>
@@ -62,34 +77,20 @@ function Footer() {
               <Link to={"/legal"}>How it Works</Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
-        <div className="ft-list" id="contact">
-          <p className="ft-list-title">Talk To Us</p>
-          <ul className="ft-list-items">
-            <li>
-              <a href="mailto:support@healthplus.com">support@healthplus.com</a>
-            </li>
-            <li>
-              <a href="mailto:appointment@healthplus.com">
-                appointment@healthplus.com
-              </a>
-            </li>
-            <li>
-              <a href="tel:+022 5454 5252">+022 5454 5252</a>
-            </li>
-            <li>
-              <a href="tel:+022 2326 6232">+022 2326 6232</a>
-            </li>
-          </ul>
-        </div>
+          <div className="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.8052422134556!2d80.84893712226724!3d16.7863624687634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3675cc20276713%3A0x9449d5e03d871355!2s13-166%2C%20Nuzividu%2C%20Andhra%20Pradesh%20521201!5e0!3m2!1sen!2sin!4v1763989946982!5m2!1sen!2sin" width="310" height="260"  style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </div>
+
       </div>
 
       <div className="ft-copyright">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>© 2025 AGAPE Health care. All rights reserved.</p>
 
         <ul className="ft-social-links">
-          <li>
+          {/* <li>
             <a
               href="https://linkedin.com/in/Alkaison/"
               title="LinkedIn"
@@ -104,11 +105,12 @@ function Footer() {
                 <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
               </svg>
             </a>
-          </li>
+          </li> */}
+          
 
           <li>
             <a
-              href="https://facebook.com/"
+              href="https://www.facebook.com/Dr.VinodMaragani"
               title="FaceBook"
               target="_blank"
               rel="noopener noreferrer"
@@ -125,19 +127,14 @@ function Footer() {
 
           <li>
             <a
-              href="https://x.com/Alkaison/"
+              href="https://www.instagram.com/agapehealthcare.enterprises?igsh=M2F3cXJ3dWI5MGxi"
               title="Twitter"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="1em"
-                viewBox="0 0 512 512"
-              >
-                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
-              </svg>
-            </a>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+<path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"></path>
+</svg>            </a>
           </li>
         </ul>
       </div>

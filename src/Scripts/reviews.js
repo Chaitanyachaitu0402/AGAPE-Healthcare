@@ -1,52 +1,52 @@
 export const customerReviews = [
     {
-      "name": "Esther Howard",
-      "location": "Texas, USA",
-      "message": "Health Plus transformed my healthcare experience! The online consultations were so convenient, and the doctors were knowledgeable and caring."
+      "name": "Arjun",
+      "location": "Guntur AP",
+      "message": "Great service and genuine medicines, very trustworthy pharmacy."
     },
     {
-      "name": "John Doe",
-      "location": "California, USA",
-      "message": "I found the perfect specialist for my condition through Health Plus. The personalized treatment plan made all the difference. Thank you for prioritizing my health!"
+      "name": "Suresh Kumar",
+      "location": "Vijayawada (Krishna) AP",
+      "message": "Helpful staff and clear information about every product."
     },
     {
-      "name": "Alice Smith",
-      "location": "New York, USA",
-      "message": "Booking appointments was a breeze, and the service exceeded my expectations. The doctors truly listen and provide effective solutions. 5 stars!"
+      "name": "Rahul Chowdary",
+      "location": "Visakhapatnam AP",
+      "message": "Highly satisfied with the quality and reliability of the pharmacy"
     },
     {
-      "name": "Bob Johnson",
-      "location": "Florida, USA",
-      "message": "Health Plus is a game-changer! The emergency care saved me during a critical situation. Grateful for their quick and efficient support."
+      "name": "Vamsi Krishna",
+      "location": "Nellore, AP",
+      "message": "Clean, organized, and very supportive team—excellent experience."
     },
     {
-      "name": "Jane Brown",
-      "location": "Washington, USA",
-      "message": "I used to dread dental visits, but Health Plus made it a pleasant experience. The dentist was gentle and professional. I'll definitely be back!"
+      "name": "Sai Teja",
+      "location": "Kurnool, AP",
+      "message": "Affordable prices and detailed guidance for all health needs."
     },
     {
-      "name": "Robert Wilson",
-      "location": "Texas, USA",
-      "message": "Finally, a healthcare platform that puts patients first! The heart disease service provided comprehensive care and regular follow-ups. Thank you, Health Plus!"
+      "name": "Harika Rani",
+      "location": "Tirupati (Chittoor), AP",
+      "message": "Very professional and friendly, I always trust their products. Thank you AGAPE Health Care"
     },
     {
-      "name": "Mary Lee",
-      "location": "California, USA",
-      "message": "I've been using Health Plus for a variety of health concerns, and each time, I received exceptional care. It's my go-to for all medical needs!"
+      "name": "Deepika M",
+      "location": "Rajahmundry (East Godavari), AP",
+      "message": "Clear explanations and safe products, highly recommended."
     },
     {
-      "name": "David Miller",
-      "location": "Texas, USA",
-      "message": "I highly recommend Health Plus for online consultations. It's convenient, secure, and the doctors are top-notch. Great job, team!"
+      "name": "Naga Sravani",
+      "location": "Anantapur, AP",
+      "message": "Their team is polite and provides correct health information."
     },
     {
-      "name": "Sarah Johnson",
-      "location": "Florida, USA",
-      "message": "The convenience of accessing medical notes online was fantastic. Health Plus made managing my health records hassle-free! Best Healthcare services."
+      "name": "Sushmitha Reddy",
+      "location": "Kadapa (YSR Kadapa), AP",
+      "message": "Great experience, everything is well-organized and dependable."
     },
     {
-      "name": "Michael Brown",
-      "location": "New York, USA",
-      "message": "As a busy professional, Health Plus has been a lifesaver. Quick prescriptions and refills without compromising on quality care. Thank you!"
+      "name": "Meghana Devi",
+      "location": "Ongole (Prakasam)",
+      "message": "Quality products with quick assistance—very impressed with the service."
     }
 ];

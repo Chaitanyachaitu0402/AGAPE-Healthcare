@@ -22,6 +22,11 @@
     letter-spacing: .8px;
 }
 
+.ft-title{
+    border-radius: 5px;
+    max-width: 280px;
+}
+
 .map iframe{
   border-radius: 10px;
   border: 0;

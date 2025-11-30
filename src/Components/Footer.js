@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Footer.css";
 import SubscribeNewsletter from "./SubscribeNewsletter";
 import { Link } from "react-router-dom";
-import logo from "../Assets/logowhite.png";
+import logo from "../Assets/mainlogowhite.jpeg";
 
 
 function Footer() {
@@ -11,9 +11,8 @@ function Footer() {
       <div className="footer-container">
         <div className="ft-info">
           <div className="ft-info-p1">
-            <p className="ft-title">
-        <img src={logo} alt="" />
-            </p>
+            
+        <img className="ft-title" src={logo} alt="" />
             <p className="ft-description">
               Our goal is to help every visitor make informed decisions about medicines, health products, and overall well-being.
             </p>
@@ -80,8 +79,8 @@ function Footer() {
         </div> */}
 
           <div className="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.8052422134556!2d80.84893712226724!3d16.7863624687634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3675cc20276713%3A0x9449d5e03d871355!2s13-166%2C%20Nuzividu%2C%20Andhra%20Pradesh%20521201!5e0!3m2!1sen!2sin!4v1763989946982!5m2!1sen!2sin" width="310" height="260"  style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.8052422134556!2d80.84893712226724!3d16.7863624687634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3675cc20276713%3A0x9449d5e03d871355!2s13-166%2C%20Nuzividu%2C%20Andhra%20Pradesh%20521201!5e0!3m2!1sen!2sin!4v1763989946982!5m2!1sen!2sin" width="310" height="260"  style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.7050422088323!2d80.8463831!3d16.7913441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a36758111b05f17%3A0xfffb167eebd29eb9!2sAgape%20Healthcare%20Enterprises!5e0!3m2!1sen!2sin!4v1764524509956!5m2!1sen!2sin" width="310" height="260"  style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
       </div>

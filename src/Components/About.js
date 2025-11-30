@@ -15,7 +15,7 @@ function About() {
           <span>About Us</span>
         </h3>
         <p className="about-description">
-          Welcome to <b>AGAPE Health Care</b>, a trusted destination committed to providing safe, reliable, and accessible healthcare information to our community. Founded by <b>Vinod Maragani</b>, our mission is to guide individuals and families with accurate details about medicines, health products, and wellness essentials. We believe that informed decisions lead to better health outcomes, and we strive to offer clarity, support, and trust at every step.
+          Welcome to <b>AGAPE Medicals</b>, a trusted destination committed to providing safe, reliable, and accessible healthcare information to our community. Founded by <b>Vinod Maragani</b>, our mission is to guide individuals and families with accurate details about medicines, health products, and wellness essentials. We believe that informed decisions lead to better health outcomes, and we strive to offer clarity, support, and trust at every step.
         </p>
 
         <h4 className="about-text-title">Your Solutions</h4>

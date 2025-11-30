@@ -2,7 +2,7 @@ export const customerReviews = [
     {
       "name": "Arjun",
       "location": "Guntur AP",
-      "message": "Great service and genuine medicines, very trustworthy pharmacy."
+      "message": "Great service and genuine medicines, and with low prices with great discounts, very trustworthy pharmacy."
     },
     {
       "name": "Suresh Kumar",

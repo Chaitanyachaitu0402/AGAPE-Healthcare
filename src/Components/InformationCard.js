@@ -1,14 +1,26 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../Styles/Info.css";
 
-function InformationCard(props) {
+function InformationCard({ title, description, image }) {
   return (
     <div className="info-cards">
-      <span className="info-card-icon">
-        <FontAwesomeIcon className="info-fa-icon" icon={props.icon} />
-      </span>
-      <p className="info-card-title">{props.title}</p>
-      <p className="info-card-description">{props.description}</p>
+      {/* Medium-size image */}
+      <img 
+        src={image} 
+        alt={title} 
+        className="info-card-image"
+        style={{
+          width: "100px",
+          height: "100px",
+          objectFit: "cover",
+          borderRadius: "10px",
+          // marginBottom: "12px"
+          marginTop: "25px"
+        }}
+      />
+
+      <h4 className="info-card-title">{title}</h4>
+      <p className="info-card-description">{description}</p>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Doctor from "../Assets/pills.png";
+import Doctor from "../Assets/logowhite.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleCheck,
@@ -42,13 +42,14 @@ function BookAppointment() {
           <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#00B899" }} /> Safe & Reliable Pharmacy Support
         </p>
 
-        <button
+        <a href="#contact">
+<button
           className="text-appointment-btn"
           type="button"
-          onClick={handleBookAppointmentClick}
         >
           <FontAwesomeIcon icon={faPhone} /> Contact Us
         </button>
+        </a>
       </div>
     </div>
   );

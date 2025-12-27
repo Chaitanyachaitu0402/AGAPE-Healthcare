@@ -7,6 +7,7 @@ import BookAppointment from "../Components/BookAppointment";
 import Reviews from "../Components/Reviews";
 import Doctors from "../Components/Doctors";
 import Footer from "../Components/Footer";
+import Form from "../Components/Form.js";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <BookAppointment />
       <Reviews />
       <Doctors />
+      <Form />
       <Footer />
     </div>
   );

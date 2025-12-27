@@ -52,6 +52,8 @@ Location: ${location}
   return (
     <div className="page">
       <div className="card">
+     <h2>Want to open a own medical store.?</h2>
+
         <h2>Join Agape Medical's™ Franchise</h2>
 
         <div className="form-grid">
